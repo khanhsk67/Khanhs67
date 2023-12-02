@@ -1,0 +1,5 @@
+Thứ tự tô pô (hay còn gọi là thứ tự topological) là một thứ tự của các đỉnh trên một đồ thị có hướng mà trong đó, nếu có cạnh nối từ đỉnh u đến đỉnh v thì đỉnh u phải đứng trước đỉnh v trong thứ tự đó. Thứ tự tô pô chỉ tồn tại khi đồ thị không có chu trình, tức là không có đường đi nào từ một đỉnh trở lại chính nó.
+
+Thuật toán BFS (hay còn gọi là duyệt theo chiều rộng) là một thuật toán duyệt đồ thị bắt đầu từ một đỉnh nguồn và duyệt qua các đỉnh kề với nó theo thứ tự từ gần đến xa. Thuật toán BFS có thể đánh dấu mỗi đỉnh theo khoảng cách tăng dần tới đỉnh nguồn của nó, tức là số bước nhỏ nhất để đi từ đỉnh nguồn đến đỉnh đó.
+
+Tuy nhiên, thuật toán BFS không đảm bảo cho kết quả là một thứ tự tô pô vì có thể có nhiều đỉnh có cùng khoảng cách tới đỉnh nguồn, nhưng lại có thứ tự khác nhau trong thứ tự tô pô

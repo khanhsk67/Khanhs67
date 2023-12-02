@@ -1,0 +1,6 @@
+Thuật toán: 
++ Sắp xếp các cạnh trong tập S theo thứ tự trọng số giảm dần
++ Lần lượt thêm vào đồ thị gốc các cạnh trong tập S
++ Đánh dấu các đỉnh đã được thăm khi thêm vào đồ thị
++ Nếu tất cả các đỉnh đã được thăm thì dừng thuật toán
++ Nếu không thăm hết các đỉnh thì trả về false.
